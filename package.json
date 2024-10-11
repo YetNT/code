@@ -1,0 +1,32 @@
+{
+    "name": "@yetnt/code",
+    "version": "1.0.0",
+    "description": "Ah yes the best language ever.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "/dist"
+    ],
+    "scripts": {
+        "test": "mocha ./src/index.test.js; sleep 10s",
+        "build": "npx tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Yetity/code.git"
+    },
+    "author": "YetNT",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Yetity/code/issues"
+    },
+    "homepage": "https://github.com/Yetity/code#readme",
+    "devDependencies": {
+        "@types/node": "^22.7.5",
+        "@typescript-eslint/eslint-plugin": "^8.8.1",
+        "@typescript-eslint/parser": "^8.8.1",
+        "eslint": "^9.12.0",
+        "expect.js": "^0.3.1",
+        "mocha": "^10.7.3"
+    }
+}
